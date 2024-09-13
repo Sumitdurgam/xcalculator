@@ -30,7 +30,7 @@ function Calculator() {
       if(isNaN(evalResult)){
         setResult("NaN");
       }else if(!isFinite(evalResult)) {
-        setResult("Infinite");
+        setResult("Infinity");
       } else {
         setResult(evalResult.toString());
         setInput(evalResult.toString());
